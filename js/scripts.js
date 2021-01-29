@@ -10,6 +10,9 @@
     portfolio website.
 */
 
+var contactform =  document.getElementById('contactHead');
+contactform.setAttribute('action', '//formspree.io/' + 'ald01845' + '@' + 'gmail' + '.' + 'com');
+
 (function($) {
 
     // Remove no-js class
