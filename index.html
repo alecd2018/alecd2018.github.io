@@ -1,1 +1,304 @@
-Hello world
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Alec Dean</title>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="mobile-menu-open" class="shadow-large">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>
+    <!-- End #mobile-menu-toggle -->
+    <header class="sticky">
+        <div id="mobile-menu-close">
+            <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
+        </div>
+        <ul id="menu" class="shadow">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#skills">Skills</a>
+            </li>
+            <li>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </header>
+    <!-- End header -->
+
+    <div id="lead">
+        <div id="lead-image"></div>
+        <div id="lead-content">
+            <h1>Alec Dean</h1>
+            <h2>Software Engineer</h2>
+            <a href="resources/resume.pdf" download="Alec_Dean_Resume.pdf" class="btn-rounded-white">Download Resume</a>
+        </div>
+        <!-- End #lead-content -->
+
+        <div id="lead-overlay"></div>
+
+        <div id="lead-down">
+            <span>
+                <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </span>
+        </div>
+        <!-- End #lead-down -->
+    </div>
+    <!-- End #lead -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2 class="heading">About Me</h2>
+                </div>
+                <div class="col-md-8">
+                    <p>
+                        Hello! My name is Alec, and I'm a software developer based in Boston. 
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End #about -->
+
+    <div id="experience" class="background-alt">
+        <h2 class="heading">Experience</h2>
+        <div id="experience-timeline">
+            <div data-date="May 2018 – Present">
+                <h3>MIT Lincoln Laboratory</h3>
+                <h4>Associate Technical Staff</h4>
+                <p>
+                    At MIT I manage a small team of developers working to integrate artificial intelligence into next-generation fighter jets. 
+                </p>
+            </div>
+
+            <div data-date="May 2017 – August 2017">
+                <h3>Vicor Corporation</h3>
+                <h4>Software Engineering Intern</h4>
+                <p>
+                    My job involved creating a simple, customziable UI for customers to modify and tweak as they saw fit. 
+                </p>
+            </div>
+
+            <div data-date="August 2016 – February 2017">
+                <h3>TransAct Technologies</h3>
+                <h4>Software Engineering Co-Op</h4>
+                <p>
+                    Here I built code the enabled the quality department to more quickly do their jobs. 
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- End #experience -->
+
+    <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="education-block">
+            <h3>Cornell University</h3>
+            <span class="education-date">Aug 2014 - May 2018</span>
+            <h4>Bachelor of Science in Computer Science</h4>
+            <ul>
+                <li>
+                    Relevant coursework:
+                </li>
+                <li>
+                    Extracurriculars:
+                    <ul>
+                        <li>
+                            CU Sail: I spent three years as a member, and eventually the Team Lead, for an autonomous sailboat project team. We developed a small boat based on an airfoil sail design. It used an Arduino to navigate based on the wind direction provided by an onboard windvane. The navigation algorithm was my pride and joy, and you can check out their current <a href="https://cusail.engineering.cornell.edu/"> website here</a>.
+                        </li>
+                        <li>
+                            Men's Club Volleyball: I played for 5 years on the Cornell Men's Volleyball Team, and I supported the team as Captian, President, and Treasurer at various points. We competed nationally, and even won second place in the country once!
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Fun fact: Cornell offers an absurd variety of physical education courses. While I was at school here, I took 17 PE courses and loved every one.
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+
+        <div class="education-block">
+            <h3>Cornell University</h3>
+            <span class="education-date">Aug 2018 - May 2019</span>
+            <h4>Master of Engineering in Computer Science</h4>
+            <ul>
+                <li>
+                    Relevant coursework:
+                </li>
+            </ul>
+        </div>
+        <!-- End .education-block -->
+    </div>
+    <!-- End #education -->
+
+    <div id="projects" class="background-alt">
+        <h2 class="heading">Projects</h2>
+        <div class="container">
+            <div class="row">
+                <div class="project shadow-large">
+                    <div class="project-image-left">
+                        <img src="images/mbta.png" alt="MBTA Train Tracker"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info-right">
+                        <h3>Real Time MBTA Train Tracker</h3>
+                        <p>
+                            A fun project to make a pretty display showing the live locations of trains in Boston's public transit system.
+                        </p>
+                        <a href="https://github.com/alecdean/green-line-map">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-info-left">
+                        <h3>Escape Room Game</h3>
+                        <p>
+                            My college roommate and I loved playing these little online escape games, so I tried making one. It's quite simple so don't expect much, but you can play using the link below!
+                        </p>
+                        <a href="https://github.com/alecdean/escape-room">View Project</a>
+                        <br/>
+                        <a href="https://alecdean.github.io/escape-this-you-toucan">Play Game</a>
+                    </div>
+                    <!-- End .project-info -->
+                    <div class="project-image-right">
+                        <img src="images/game.png" alt="Escape Room Game"/>
+                    </div>
+                    <!-- End .project-image -->
+                </div>
+                <!-- End .project -->
+
+                <div class="project shadow-large">
+                    <div class="project-image-left">
+                        <img src="images/project.jpg" alt="CU Sail Navigation"/>
+                    </div>
+                    <!-- End .project-image -->
+                    <div class="project-info-right">
+                        <h3>CU Sail Navigation Algorithm</h3>
+                        <p>
+                            Like I mentioned above, the nav algorithm was my pride and joy. We would spend hours debugging code out on the quads or on the lake. 
+                        </p>
+                        <a href="#">View Project</a>
+                    </div>
+                    <!-- End .project-info -->
+                </div>
+                <!-- End .project -->
+
+                <a id="view-more-projects" href="#">View More Projects</a>
+                <div id="more-projects" class="row">
+                    <div class="project shadow-large">
+                        <div class="project-image-right">
+                            <img src="images/project.jpg" alt="JHipster WebApps"/>
+                        </div>
+                        <!-- End .project-image -->
+                        <div class="project-info-left">
+                            <h3>JHipster WebApps</h3>
+                            <p>
+                                I wanted to experiment with cutting edge technology, and JHipster makes that easy. I made two simple webapps based the JHipster stack.
+                            </p>
+                            <a href="https://dean-family.herokuapp.com">View Project</a>
+                        </div>
+                        <!-- End .project-info -->
+                    </div>
+                    <!-- End .project -->
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- End #projects -->
+
+    <div id="skills">
+        <h2 class="heading">Skills</h2>
+        <ul>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Go</li>
+            <li>Node.js</li>
+            <li>AngularJs</li>
+            <li>React</li>
+            <li>Java</li>
+            <li>C#</li>
+            <li>C++</li>
+            <li>Docker</li>
+            <li>Podman</li>
+            <li>Kubernetes</li>
+            <li>Jenkins</li>
+        </ul>
+    </div>
+    <!-- End #skills -->
+
+    <div id="contact">
+        <h2>Get in Touch</h2>
+        <div id="contact-form">
+            <form method="POST" action="https://formspree.io/ald01845@gmail.com">
+                <input type="hidden" name="_subject" value="Contact request from personal website" />
+                <input type="email" name="_replyto" placeholder="Your email" required>
+                <textarea name="message" placeholder="Your message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <!-- End #contact-form -->
+    </div>
+    <!-- End #contact -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 copyright">
+                    <p>
+                        Copyright &copy; 2020 Alec Dean
+                    </p>
+                </div>
+                <div class="col-sm-2 top">
+                    <span id="to-top">
+                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                    </span>
+                </div>
+                <div class="col-sm-5 social">
+                    <ul>
+                        <li>
+                            <a href="https://alecdean.github.com/" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://linkedin.com/alec-dean" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/alec.dean.9/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/scripts.min.js"></script>
+</body>
+
+</html>
