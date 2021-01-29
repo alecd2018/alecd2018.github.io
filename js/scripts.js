@@ -11,7 +11,7 @@
 */
 
 var contactform =  document.getElementById('contactHead');
-contactform.setAttribute('action', '//formspree.io/' + 'ald01845' + '@' + 'gmail' + '.' + 'com');
+contactform.setAttribute('action', 'https://formspree.io/f/meqpdjep');
 
 (function($) {
 
